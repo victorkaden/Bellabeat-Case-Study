@@ -82,7 +82,7 @@ ggplot(merged_data, aes(x = week_day, y = TotalSteps, fill = week_day)) +
 ---
 
 ## Full Presentation
-[View the Full Presentation Here](file:///C:/Users/victo/Downloads/Bellabeat_Case_Study_Presentation.pdf)
+[View the Full Presentation Here](Bellabeat_Case_Study_Presentation.pdf)
 
 ---
 
