@@ -22,7 +22,7 @@ The primary goal is to analyze Bellabeat's user data and compare it with general
 - **Comparison**: Non-users have overall lower activity levels.
 - **Recommendation**: Introduce in-app prompts to reduce sedentary behavior and gamify activity goals.
 
-![Activity Levels Chart](activity_levels_chart.png)
+![Activity Levels Chart](https://github.com/user-attachments/assets/1e42f8f9-e3f7-4a4c-baf3-4b4161a0dee6)
 
 ### 2. Steps vs. Calories Burned
 - **Insight**: A strong positive correlation exists between steps taken and calories burned, highlighting the importance of daily movement.
@@ -42,21 +42,20 @@ ggplot(merged_data, aes(x = TotalSteps, y = Calories)) +
   ) +
   theme_minimal()
 ```
-
-![Steps vs. Calories Burned](steps_vs_calories_burned.png)
+![Steps vs. Calories Burned](https://github.com/user-attachments/assets/d77e7ea7-a081-4706-8478-21d2edf270b9)
 
 ### 3. Sleep Patterns
 - **Insight**: Bellabeat users have slightly better sleep efficiency but do not outperform non-users significantly in total sleep duration.
 - **Comparison**: Non-users show more fragmented sleep patterns.
 - **Recommendation**: Offer personalized sleep tips to help users gain a sleep-quality advantage.
 
-![Sleep Patterns Chart](sleep_patterns_chart.png)
+![Sleep Patterns Chart](https://github.com/user-attachments/assets/76542d1f-2005-40c3-97ff-54cbdd6ae2d0)
 
 ### 4. Steps Taken per Day
 - **Insight**: Bellabeat users walk more steps daily than non-users, though some inactive users match non-user activity levels.
 - **Recommendation**: Use motivational notifications to convert low-activity users into moderate-activity users.
 
-![Steps Over Time](steps_over_time.png)
+![Steps Over Time](https://github.com/user-attachments/assets/454c000a-2a5a-4adf-b34b-17e073fa9573)
 
 ### 5. Weekly Trends
 - **Insight**: Bellabeat users are more consistent in activity levels throughout the week compared to non-users.
@@ -78,13 +77,12 @@ ggplot(merged_data, aes(x = week_day, y = TotalSteps, fill = week_day)) +
   theme_minimal() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
-
-![Weekly Trends Chart](weekly_trends_chart.png)
+![Weekly Trends Chart](https://github.com/user-attachments/assets/71b14d29-8f73-4f97-ac60-99b517c19a94)
 
 ---
 
 ## Full Presentation
-[View the Full Presentation Here](https://link-to-your-presentation)
+[View the Full Presentation Here](file:///C:/Users/victo/Downloads/Bellabeat_Case_Study_Presentation.pdf)
 
 ---
 
